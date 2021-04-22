@@ -1,0 +1,15 @@
+.NavItem {
+  color: #fff;
+  text-decoration: none;
+  transition: all .3s;
+  margin: 0 1rem;
+  font-size: 2rem;
+  
+  &:hover {
+    opacity: .7;
+  }
+}
+
+.ActiveNavItem {
+  text-decoration: underline;
+}

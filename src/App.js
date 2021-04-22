@@ -1,10 +1,14 @@
 import React from 'react';
-import classes from './App.module.scss';
+import { Route, Switch } from 'react-router-dom';
+
+// import classes from './App.module.scss';
+
+import Homepage from './containers/Homepage/Homepage';
 
 const App = () => (
-  <div className={classes.App}>
-    Test
-  </div>
+  <Switch>
+    <Route path='/' component={Homepage} />
+  </Switch>
 );
 
 export default App;
