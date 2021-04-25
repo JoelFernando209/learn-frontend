@@ -1,0 +1,16 @@
+.HeroText {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  
+  .Title {
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .Subtitle {
+    color: #555353;
+    font-size: 2.5rem;
+    width: 75%;
+  }
+}

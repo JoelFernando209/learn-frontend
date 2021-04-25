@@ -1,0 +1,21 @@
+.Button {
+  background-color: #0D9FBE;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: all .2s;
+  color: #fff;
+  font-size: 2.2rem;
+  user-select: none;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  &:hover {
+    background-color: darken(#0D9FBE, 3%);
+  }
+  
+  &:active {
+    background-color: darken(#0D9FBE, 5%);
+  }
+}

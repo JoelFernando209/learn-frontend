@@ -1,0 +1,18 @@
+.Input {
+  padding: .7rem 1.3rem;
+  color: darken(#BDB8B8, 10%);
+  width: 100%;
+  background-color: #E8E7E7;
+  border: none;
+  font-size: 2rem;
+  transition: all .2s;
+  
+  &::placeholder {
+    color: #BDB8B8;
+  }
+  
+  &:focus {
+    outline: none;
+    background-color: darken(#E8E7E7, 2%);
+  }
+}

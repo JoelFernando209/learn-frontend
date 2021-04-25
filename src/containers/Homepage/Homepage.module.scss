@@ -1,1 +1,6 @@
-.Homepage {}
+.Homepage {
+  
+  & > * {
+    margin-bottom: 3rem;
+  }
+}

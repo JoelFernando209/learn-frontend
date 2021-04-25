@@ -4,11 +4,11 @@ import classes from './PageBuilder.module.scss';
 
 import Navbar from '../../components/UI/Navbar/Navbar';
 
-const PageBuilder = ({ children }) => (
+const PageBuilder = ({ children, className = '' }) => (
   <>
     <Navbar />
     
-    <div className={classes.Content}>
+    <div className={[classes.Content, className].join(' ')}>
       {children}
     </div>
   </>
