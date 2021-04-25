@@ -2,8 +2,8 @@ import React from 'react';
 
 import classes from './Container.module.scss';
 
-import Input from '../../../../../UI/Input/Input';
-import Button from '../../../../../UI/Button/Button';
+import Input from '../../../../../UI/visuals/Input/Input';
+import Button from '../../../../../UI/visuals/Button/Button';
 
 const Container = () => (
   <div className={classes.EmailInput}>

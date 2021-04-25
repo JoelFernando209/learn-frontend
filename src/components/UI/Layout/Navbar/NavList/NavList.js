@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './NavList.module.scss';
 
-import { pages } from '../../info-ui';
+import { pages } from '../../../info-ui';
 
 import NavItem from './NavItem/NavItem';
 

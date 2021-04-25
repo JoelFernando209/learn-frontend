@@ -1,0 +1,15 @@
+.FooterItem {
+  color: #fff;
+  text-decoration: none;
+  transition: all .3s;
+  margin: 0 1.3rem;
+  font-size: 2rem;
+  
+  &:hover {
+    opacity: .7;
+  }
+}
+
+.ActiveFooterItem {
+  text-decoration: underline;
+}
