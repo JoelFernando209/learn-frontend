@@ -1,6 +1,9 @@
 .EmailList {
   background-color: #393E46;
-  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
-  padding: 5rem 6rem;
+  clip-path: polygon(0 7%, 100% 0%, 100% 93%, 0% 100%);
+  padding: 8rem 6rem;
   color: #fff;
+  
+  display: flex;
+  align-items: center;
 }

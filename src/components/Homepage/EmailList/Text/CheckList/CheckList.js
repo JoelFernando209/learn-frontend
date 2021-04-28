@@ -1,15 +1,21 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './CheckList.module.scss';
+
+import classes from './CheckList.module.scss';
+
+import CheckItem from './CheckItem/CheckItem';
+
+const checkItems = [
+  'No spam',
+  'Unsubscribe whenever you want',
+  'Interesting topics every week'
+];
 
 const CheckList = () => (
-  <div className={styles.CheckList}>
-    CheckList Component
+  <div className={classes.CheckList}>
+    {checkItems.map(name => (
+      <CheckItem name={name} />
+    ))}
   </div>
 );
-
-CheckList.propTypes = {};
-
-CheckList.defaultProps = {};
 
 export default CheckList;

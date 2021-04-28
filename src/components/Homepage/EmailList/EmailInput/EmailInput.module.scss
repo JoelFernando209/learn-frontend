@@ -1,0 +1,16 @@
+.EmailInput {
+  display: flex;
+  flex-direction: column;
+  
+  flex: 1;
+  
+  .Input {
+    margin-top: -.6rem;
+  }
+  
+  .Submit {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+}

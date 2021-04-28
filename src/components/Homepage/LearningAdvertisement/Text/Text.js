@@ -2,15 +2,15 @@ import React from 'react';
 
 import classes from './Text.module.scss';
 
-import CheckList from './CheckList/CheckList';
+import Button from '../../../UI/visuals/Button/Button';
 
 const Text = () => (
   <div className={classes.Text}>
     <div className={classes.Title}>
-      Join the Email List and discover how to advance in your career and go further!
+      The learning path to <span class='important'>master</span> Web Development
     </div>
     
-    <CheckList />
+    <Button className={classes.Button}>Get it now</Button>
   </div>
 );
 

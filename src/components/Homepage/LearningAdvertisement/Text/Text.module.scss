@@ -1,0 +1,15 @@
+.Text {
+  display: flex;
+  flex-direction: column;
+  
+  flex: 1;
+  
+  .Title {
+    font-size: 7rem;
+  }
+  
+  .Button {
+    margin-top: 1.5rem;
+    width: 35%;
+  }
+}
